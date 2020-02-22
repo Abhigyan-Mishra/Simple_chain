@@ -17,7 +17,6 @@
 
 The blockchain is a fascinating technology, but it can also be intimidating. At the time I wrote this code, I had consumed a lot of material regarding the blockchain and cryptocurrencies, but I hadn't satisfied my hunger for knowledge (and still haven't). I wanted to create my own blockchain for some of that knowledge to sink in, and I wanted it to be simple. Simplechain is the result of that, and I hope you find it as helpful as it was for me when I created it.
 
-> Check out [Simplechain++](https://github.com/olistic/simplechainpp) for a C++ port.
 
 ## Usage
 
@@ -47,8 +46,6 @@ Go ahead and try the following commands:
 * `ADDBLOCK <data>`: Mines a block with the provided data and adds it to the chain.
 * `LISTBLOCKS`: Lists all the blocks in the chain.
 
-Well done! If you want to learn more, please don't forget to [look at the code](https://github.com/olistic/simplechain/tree/master/lib).
-
 ## Advanced Usage
 
 ### Adjust Difficulty
@@ -71,7 +68,3 @@ This number represents the amount of zeros the hashes of the blocks in the block
 ## Resources
 
 * [_Ever wonder how Bitcoin (and other cryptocurrencies) actually work?_](https://youtu.be/bBC-nXj3Ng4)
-
-## License
-
-MIT
